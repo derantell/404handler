@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+    <language name="Svenska" id="sv">
+      <gadget>
+        <redirects>
+          <ignored>Ignorerade</ignored>
+          <title>Omdirigeringar</title>
+          <name>Hantera omdirigeringar</name>
+          <description>Administrera omdirigeringar</description>
+          <info>
+              Med hjälp av 404 Redirect Gadget:en kan du lägga till, ta bort och söka efter existerande omdirigeringar.
+              "Tidigare URL" är unik, vilket innebär att om du har två omdirigeringar med samma tidigare URL så kommer den senare att skriva över den första.
+          </info>
+          <count>Antal omdirigeringar:</count>
+          <oldurl>Tidigare URL</oldurl>
+          <newurl>Ny URL</newurl>
+          <delete>Ta bort</delete>
+          <configure>Ta bort alla</configure>
+          <cleartext>Välj 'OK' för att ta bort ALLA omdirigeringar</cleartext>
+          <note>Det här kan inte ångras.</note>
+          <search>Sök</search>
+          <searchresult>Din sökning efter &lt;b&gt;{0}&lt;/b&gt; gav &lt;b&gt;{1}&lt;/b&gt; resultat.</searchresult>
+          <wildcard>Wildcard</wildcard>
+          <storedredirects>Det finns för tillfället &lt;b&gt;{0}&lt;/b&gt; omdirigeringar</storedredirects>
+          <saveredirect>Omdirigering med tidigare URL &lt;b&gt;{0}&lt;/b&gt; och ny &lt;b&gt;{1}&lt;/b&gt; sparades.</saveredirect>
+          <redirectscount>Visar omdirigeringar {0}-{1} av {2}</redirectscount>
+          <suggestionscount>Förslag: {0}-{1} av {2}</suggestionscount>
+          <split>...</split>
+          <ignoreexplanation>Om du ignorerar ett förslag så kommer ingen mer loggning att ske för den föreslagna URL:en. Förslaget kommer även att tas bort från listan</ignoreexplanation>
+          <ignoreredirect>Omdirigering med URL &lt;b&gt;{0}&lt;/b&gt; tillagd till ignoreralistan</ignoreredirect>
+          <ignore>Ignorera</ignore>
+          <storedsuggestions>Det finns &lt;b&gt;{0}&lt;/b&gt; förslag på omdirigeringar, baserat på loggade 404-fel.</storedsuggestions>
+          <andsuggestions>och &lt;b&gt;{0}&lt;/b&gt; förslag på omdirigeringar</andsuggestions>
+          <searchsuggestions>Din sökning efter &lt;b&gt;{0}&lt;/b&gt; gav &lt;b&gt;{1}&lt;/b&gt; förslag.</searchsuggestions>
+          <ignoredsuggestions>Det finns &lt;b&gt;{0}&lt;/b&gt; ignorerade förslag.</ignoredsuggestions>
+          <unignore>Sluta ignorera</unignore>
+          <url>URL</url>
+          <importsuccess>Importerade {0} omdirigeringar.</importsuccess>
+          <importdeletedsuccess>Importerade {0} URL:er.</importdeletedsuccess>
+          <importnone>Kunde inte importera omdirigeringar</importnone>
+          <importinfo>Importera omdirigeringar från en XML-fil</importinfo>
+          <importDeleted>Importera borttagna (410) URL:er från en textfil</importDeleted>
+          <ignoredremoved>Samtliga {0} ignorerade förslag permanent borttagna</ignoredremoved>
+          <suggestionsdeleted>Förslag togs bort</suggestionsdeleted>
+          <redirectsdeleted>Omdirigeringar togs bort</redirectsdeleted>
+          <suggesteionsdeleteinfo1>Ta bort (permanent) alla förslag med färre än</suggesteionsdeleteinfo1>
+          <suggesteionsdeleteinfo2>fel och äldre än</suggesteionsdeleteinfo2>
+          <suggesteionsdeleteinfo3>dagar</suggesteionsdeleteinfo3>
+          <deleteignoreinfo>Ta bort alla ignorerade förslag permanent</deleteignoreinfo>
+          <deleteallSuggestions>Ta bort alla förslag permanent</deleteallSuggestions>
+          <deleteallredirects>Ta bort alla omdirigeringar permanent</deleteallredirects>
+          <Administerinfo>Rensa bort omdirigeringsförslag eller ingorerade URL:er, eller importera omdirigeringar från en XML-fil</Administerinfo>
+          <deletedurls>Det finns för tillfället &lt;b&gt;{0}&lt;/b&gt; URL:er som returnerar ett "410 Gone"-svar. Detta talar om för sökmotorer att ta bort URL:en från sina sökindex.</deletedurls>
+        </redirects>
+      </gadget>
+    </language>
+</languages>
