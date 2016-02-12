@@ -96,7 +96,7 @@
     <Compile Include="Controllers\NotFoundRedirectController.cs" />
     <Compile Include="Models\RedirectIndexViewData.cs" />
     <Compile Include="Models\Suggestion.cs" />
-    <Content Include="lang\RedirectsGadgetSV.xml" />
+    <EmbeddedResource Include="lang\RedirectsGadgetSV.xml" />
     <Content Include="NotFound.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
